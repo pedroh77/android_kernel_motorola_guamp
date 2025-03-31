@@ -10,13 +10,13 @@ jobs:
     runs-on: ubuntu-20.04
 
 
-    steps:
-    - name: Checkout
-      uses: actions/checkout@main
+#    steps:
+#    - name: Checkout
+#      uses: actions/checkout@main
 
-    - name: Start
-      run: |
-        ./compile.sh guamp
+#    - name: Start
+#      run: |
+#        ./compile.sh guamp
 
   cebu:
     runs-on: ubuntu-20.04
